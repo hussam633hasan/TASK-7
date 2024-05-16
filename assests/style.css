@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.task1{
+    margin: 25px auto;
+}
+.task-header{
+    width: 215px;
+    border-bottom: 3px dashed;
+    margin-top: 15px;
+}
+.cardtask1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background: red;
+    height: 300px;
+    margin-top: 15px;
+}
+.text-task-1{
+    width: 430px;
+    color: white;
+}
+.text-task-1 h5{
+    padding: 25px 0 25px 0;
+}
+.iphone img{
+    width: 100px;
+}
+.all-iphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-top: -50px;
+}
+.all-iphone img{
+    width: 50px;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.task2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    margin-top: 15px;
+    border: 2px solid gray;
+}
+.dark_mode_btn{
+	font-size: 1.5em;
+	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+    margin-top: -260px;
+    margin-left: 5px;
+}
+.dark_mode_active{
+	background: black;
+}
+.dark_mode_active button{
+	color: white;
+}
+.dark_mode_active .text-task-2{
+	color: white;
+}
+#accordion {
+    width: 600px;
+    margin-top: 15px;
+  }
+  
+.accordion-item {
+    border: none;
+    background-color:#def4cd;
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
+.accordion-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #def4cd;
+    border: 1px solid black;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+} 
+.accordion-title:hover{
+    box-shadow: 1px 2px 20px 7px gray;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    background-color:#def4cd;
+}
+#rating-container {
+    margin-top: 25px;
+    background: #023951;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: white;
+} 
+.all-star{
+    display: flex;
+    margin: 20px 0px;
+}
+.star {
+    cursor: pointer;
+    font-size: 24px;
+    color: gray;
+}  
+.gold {
+    color: gold;
+}  
